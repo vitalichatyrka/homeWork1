@@ -22,7 +22,7 @@ public class Main {
         signInButton.click();
 
         WebElement inputEmail = newDriver.findElement(By.xpath(xpathOfInputEmail));
-        inputEmail.sendKeys(email;
+        inputEmail.sendKeys(email);
 
         WebElement inputPassword = newDriver.findElement(By.xpath(xpathOfInputPassword));
         inputPassword.sendKeys(password);
